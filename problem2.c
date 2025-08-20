@@ -23,10 +23,10 @@ int main(){
 
     printf("Enter the value of y: ");
     scanf("%d", &y);
-    printf("Before swapping value of x and y is %d and %d", x,y);
+    printf("Before swapping value of x and y is %d and %d\n", x,y);
     
     swapbyvalue(x,y);
-    printf("Value of x and y after swapping using call by value x=%d and y=%d", x, y);
+    printf("Value of x and y after swapping using call by value x=%d and y=%d\n", x, y);
 
     swapbyreference(&x,&y);
     printf("X and y after swapping by reference x=%d and y=%d");
