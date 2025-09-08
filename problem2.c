@@ -1,34 +1,32 @@
 #include<stdio.h>
 
-void swapbyvalue(int a, int b){
+void reversearr(int *arr, int n){
+    int *start = arr;
+    int *last = arr+n-1;
     int temp;
-    temp = a;
-    a = b;
-    b = temp;
-printf("value of x and y inside swap by value is %d and %d\n", a,b);
+    while (start<last){
+    temp = *start;
+    *start = *last;
+    *last = temp;
+    start++;
+    last--;
 }
-
-int swapbyreference(int *a, int *b){
-    int temp; 
-    temp = *a;
-    *a = *b;
-    *b = temp;
-    printf("value of a and b after swapping call by reference is %d and %d\n", *a, *b);
-    return 0;
+}
+void printarr(int *arr, int n){
+    for (int i = 0; i<n; i++){
+        printf("%d\n", *(arr+i));
+    }
 }
 int main(){
-    int x,y; 
-    printf("Enter the value of x: ");
-    scanf("%d", &x);
-
-    printf("Enter the value of y: ");
-    scanf("%d", &y);
-    printf("Before swapping value of x and y is %d and %d\n", x,y);
-    
-    swapbyvalue(x,y);
-    printf("Value of x and y after swapping using call by value x=%d and y=%d\n", x, y);
-
-    swapbyreference(&x,&y);
-    printf("X and y after swapping by reference x=%d and y=%d");
-    return 0;
+    int n;
+printf("Enter the no. of elements n: ");
+scanf("%d", &n);
+ int arr[n];
+  for (int i =0; i<n; i++){
+    scanf("%d", (arr+i));
+  }
+reversearr(arr, n);
+printf("Reversed array: \n");
+printarr(arr, n);
+return 0;
 }
