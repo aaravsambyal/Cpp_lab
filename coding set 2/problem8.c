@@ -6,6 +6,7 @@ int main()
     printf("Enter the elements of array: \n");
 
     int *ptr = &arr[0][0][0];
+   // (int*)ptr[3][3] = arr;
     for (int i = 0; i < 27; i++)
     {
         scanf("%d", ptr + i);
