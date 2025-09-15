@@ -19,4 +19,6 @@ for (int i=0; i<n; i++){
     avg = avg/n;
 printf("Average of number is %d", avg);
 
+return 0; 
+
 }

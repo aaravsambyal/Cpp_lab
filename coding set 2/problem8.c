@@ -15,4 +15,5 @@ int main()
     {
         printf("%d", *(ptr + i));
     }
+    return 0;
 }
