@@ -25,4 +25,5 @@ int main(){
     Book B1;
     B1.input("Invisible Man", "HG Wells", 499.00);
     B1.display();
+    return 0;
 }

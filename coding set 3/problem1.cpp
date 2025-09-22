@@ -22,4 +22,5 @@ int main(){
     S2.getData(25, "Aditya");
     S1.displayData();
     S2.displayData();
+    return 0;
 }

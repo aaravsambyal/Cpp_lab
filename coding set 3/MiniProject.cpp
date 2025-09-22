@@ -59,4 +59,5 @@ int main(){
     S1.input("Aditya", 15, marks);
     S1.display();
     S1.calculateGrade();
+    return 0;
 }
