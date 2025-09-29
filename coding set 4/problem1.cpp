@@ -13,10 +13,10 @@ public:
         y = 0;
     }
 
-    Point(int newx, int newy)
+    Point(int x1, int y1)
     {
-        x = newx;
-        y = newy;
+        x = x1;
+        y = y1;
     }
 
     void set(int newx, int newy)
