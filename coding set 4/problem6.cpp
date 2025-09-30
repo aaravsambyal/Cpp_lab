@@ -45,4 +45,5 @@ int main()
     Box B3(2, 2, 4); // 16
     Box B4(2, 3, 6); // 36
     B1.compare(B2);
+    return 0;
 }
