@@ -21,12 +21,6 @@ class Complex
     int getReal(){return real;}
     int getImag(){return imag;}
 
-    void set(int r, int i)
-    {
-        real = r;
-        imag = i;
-    }
-
     void show()
     {
         cout<<real<<" + "<<imag<<"i"<<'\n';
@@ -48,5 +42,5 @@ int main()
     Complex C2(3, 6);
     Complex C3 = add(C1, C2);
     C3.show();
-    
+    return 0;
 }
