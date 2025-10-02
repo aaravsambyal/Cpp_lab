@@ -52,4 +52,5 @@ int main()
     Matrix m2(5, 6, 7, 8);
     Matrix m3 = m1.add(m2);
     m3.display();
+    return 0;
 }

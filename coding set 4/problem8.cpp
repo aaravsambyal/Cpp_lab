@@ -44,5 +44,6 @@ int main()
     a1.display();
     cout<<"Balance of account 2:"<<'\n';
     a2.display();
-
+    
+    return 0;
 }
