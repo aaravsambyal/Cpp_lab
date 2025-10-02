@@ -5,8 +5,6 @@ class Account
 {
 	double balance;
    
-   
-
     public:
     Account(double b = 0)
     {
