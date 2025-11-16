@@ -15,18 +15,18 @@ public:
     {
         cout << "Enter name:" << '\n';
         cin >> name;
-        cout << '\n';
+    
         cout << "Enter age:" << '\n';
         cin >> age;
-        cout << '\n';
+        
         cout << "Enter course:" << '\n';
         cin >> course;
     }
     void display()
     {
-        cout<<""<<name<<'\n';
-        cout<<""<<age<<'\n';
-        cout<<""<<course<<'\n';
+        cout<<"Name: "<<name<<'\n';
+        cout<<"Age: "<<age<<'\n';
+        cout<<"Course: "<<course<<'\n';
     }
     
 };
