@@ -5,7 +5,7 @@ class Employee
 {
 protected:
     int id;
-    int salary;
+    double salary;
 };
 
 class Manager : public Employee
