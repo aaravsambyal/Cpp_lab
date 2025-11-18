@@ -55,7 +55,7 @@ int main()
     {
         if (arr[i].showName() == temp)
         {
-            cout << " " << arr[i].showBook() << '\n';
+            cout << arr[i].showBook() << '\n';
         }
     }
 }
