@@ -4,11 +4,7 @@ using namespace std;
 
 int main()
 {
-    string fileName;
-    cout << "Enter file name:";
-    getline(cin, fileName);
-
-    ifstream file(fileName);
+    ifstream file("file.txt", ios::app);
     if (!file)
     {
         cout << "File does not exist";

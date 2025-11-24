@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    ofstream file("file.txt", ios::app);
+    ofstream file("file1.txt", ios::app);
     cout << "Enter lines of text. Enter'STOP' to finish" << '\n';
 
     string line;

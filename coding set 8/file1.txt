@@ -1,0 +1,12 @@
+Hello, my name is Aarav.
+Nice to meet you.
+How are you?
+STOP
+
+
+cd "c:\Users\iamaa\OneDrive\Desktop\code\cpp\Cpp_lab\coding set 8\" ; if ($?) { g++ problem2.cpp -o problem2 } ; if ($?) { .\problem2 }
+cd "c:\Users\iamaa\OneDrive\Desktop\code\cpp\Cpp_lab\coding set 8\" ; if ($?) { g++ problem2.cpp -o problem2 } ; if ($?) { .\problem2 }
+ohohoho
+yoyoyo
+cd "c:\Users\iamaa\OneDrive\Desktop\code\cpp\Cpp_lab\coding set 8\" ; if ($?) { g++ problem2.cpp -o problem2 } ; if ($?) { .\problem2 }
+cd "c:\Users\iamaa\OneDrive\Desktop\code\cpp\Cpp_lab\coding set 8\" ; if ($?) { g++ problem2.cpp -o problem2 } ; if ($?) { .\problem2 }
